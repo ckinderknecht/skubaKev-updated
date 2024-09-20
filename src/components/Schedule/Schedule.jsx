@@ -21,7 +21,7 @@ export default function Schedule() {
                     </div>
                     <div className="weekDays">
                         <h4>Saturday</h4>
-                        <p>9am - 1pm@ Pool</p>
+                        <p>9am - 1pm<br/>@ Pool</p>
                         {/* <p>1:30pm - 3:30pm<br>@ Shop</p> */}
                     </div>
                     <div className="weekDays">
