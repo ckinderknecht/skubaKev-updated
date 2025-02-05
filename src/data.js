@@ -20,12 +20,6 @@ export const NAV_LINKS = [
 
 export const CLASSES = [
     {
-        year: 2024,
-        month: 'December',
-        classDays: '5 - 8',
-        lakeDays: 'By Referral'
-    },
-    {
         year: 2025,
         month: 'January',
         classDays: '9 - 12',
@@ -36,38 +30,50 @@ export const CLASSES = [
         month: 'February',
         classDays: '20 - 23',
         lakeDays: 'By Referral'
+    },
+    {
+        year: 2025,
+        month: 'March',
+        classDays: '26 - 29',
+        lakeDays: 'By Referral'
+    },
+    {
+        year: 2025,
+        month: 'April',
+        classDays: '25 - 28',
+        lakeDays: 'By Referral'
     }
 ];
 
 export const TRAVEL_DATES = [
     {
         location:'BVI Sail & Dive',
-        dates:'August 4 - 11',
-        price:'$2999 + Air',
-        soldOut: true
+        dates:'March 2 - 9',
+        price:'$2750 ppdo + Air',
+        soldOut: false
     },
     {
-        location:'St. Lucia - Martinique, Sail & Dive',
-        dates:'October 19 - 26',
-        price:'$2999 + Air',
-        soldOut: true
-    },
-    {
-        location:'St. Lucia - Martinique, Sail & Dive',
-        dates:'Oct. 28 - Nov. 4',
-        price:'$2999 + Air',
+        location:'BVI Sail & Dive',
+        dates:'June 3 - 10',
+        price:'$3399 ppdo + Air',
         soldOut: true
     },
     {
         location:'Cozumel',
-        dates:'Nov. 29 - Dec. 2',
-        price:'$1399 + Air',
+        dates:'August 1 - 4',
+        price:'$1299 ppdo + Air',
         soldOut: false
     },
     {
-        location:'Fiji Beqa Lagoon',
-        dates:'October 4 - 11 2025',
-        price:'$3599 W/Air (LAX)',
+        location:'Fiji',
+        dates:'October 4 - 11',
+        price:'$2799 ppdo + Air',
+        soldOut: false
+    },
+    {
+        location:'Galapagos',
+        dates:'January 5 - 12',
+        price:'$7250 ppdo + Air',
         soldOut: false
     }
 ];
